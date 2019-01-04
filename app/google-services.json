@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1041067070844",
+    "firebase_url": "https://reziena1.firebaseio.com",
+    "project_id": "reziena1",
+    "storage_bucket": "reziena1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041067070844:android:d9604ae6e5ca965d",
+        "android_client_info": {
+          "package_name": "com.example.user.openCV"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041067070844-ijmf37v4571254nhjmt4r80cj9r3n9hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ahTQTufRh-Q6CPDCsy-oBb4TH_2_sTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

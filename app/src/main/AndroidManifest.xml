@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.user.openCV">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".HomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation"/>
+
+        <activity
+            android:name=".MoistureActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".WrinklesActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".SkintypeActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".Card"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".SkinhistoryActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".DoneActivity_cl"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".DoneActivity_cr"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".DoneActivity_ul"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".DoneActivity_ur"
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name=".TreatActivity" />
+        <activity android:name=".TreatActivity_cheekleft" />
+        <activity android:name=".TreatActivity_cheekright" />
+        <activity android:name=".TreatActivity_underleft" />
+        <activity android:name=".TreatActivity_underright" />
+
+        <activity android:name=".LoadingActivity" />
+
+        <activity
+            android:name=".WrinkleResultActivity"
+            android:theme="@style/NoTitleDialog"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:theme="@style/NoTitleDialog"
+        android:screenOrientation="landscape"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus"  android:required="false"/>
+
+    <supports-screens android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true" />
+
+</manifest>
